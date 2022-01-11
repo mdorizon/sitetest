@@ -1,0 +1,34 @@
+/*
+test d'annotation
+*/
+
+
+p {
+    color: black;
+}
+
+:link {
+    color: purple;
+}
+
+h1 {
+    font-family: fantasy;
+    color: black;
+}
+
+
+
+/* 
+un point pour les class
+*/
+.titre {
+    color: yellowgreen;
+}
+
+
+/* 
+un # pour les id
+*/
+#fichier {
+    color: black;
+}
