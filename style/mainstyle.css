@@ -37,6 +37,16 @@ ajouter une police personalisée
 
 
 
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-color: rgb(58, 58, 58); /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+}
+
+
+
+
 .imageflottante
 {
     float: left;
@@ -48,7 +58,7 @@ ajouter une police personalisée
 
 
 p {
-    color: black;
+    color: white;
     font-size: 16px;
 }
 
@@ -60,7 +70,7 @@ h1 {
     font-family: police1;
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2.5em;
 }
 
@@ -78,5 +88,5 @@ un point pour les class
 un # pour les id
 */
 #fichier {
-    color: black;
+    color: mediumseagreen;
 }
