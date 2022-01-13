@@ -1,10 +1,55 @@
 /*
-test d'annotation
+Valeurs relatives de taille
+
+xx-small  : minuscule ;
+
+x-small  : très petit ;
+
+small  : petit ;
+
+medium  : moyen ;
+
+large  : grand ;
+
+x-large  : très grand ;
+
+xx-large  : euh… gigantesque.
+
+
+taille en em
+
+Si vous écrivez 1em  , le texte a une taille normale.
+
+Si vous voulez grossir le texte, vous pouvez inscrire une valeur supérieure à 1, comme 1.3em  .
+
+Si vous voulez réduire le texte, inscrivez une valeur inférieure à 1, comme 0.8em
 */
+
+
+
+/*
+ajouter une police personalisée 
+*/
+@font-face {
+    font-family: 'police1';
+    src: url('../documents/polices/Storytime.ttf');
+}
+
+
+
+.imageflottante
+{
+    float: left;
+}
+.dessous
+{
+    clear: both;
+}
 
 
 p {
     color: black;
+    font-size: 16px;
 }
 
 :link {
@@ -12,8 +57,11 @@ p {
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: police1;
+    font-weight: bold;
+    text-align: center;
     color: black;
+    font-size: 2.5em;
 }
 
 
