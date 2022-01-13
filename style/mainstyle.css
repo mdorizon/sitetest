@@ -45,6 +45,17 @@ body
 }
 
 
+.colorbtn:active {
+    background-color: #FFCC66;
+    color: #FFCC66;
+}
+
+
+.boutton:hover { /* Apparence au survol des liens */
+    text-decoration: underline;
+    color: green;
+}
+
 
 
 .imageflottante
