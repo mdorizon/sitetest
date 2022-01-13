@@ -26,6 +26,16 @@ Si vous voulez réduire le texte, inscrivez une valeur inférieure à 1, comme 0
 */
 
 
+.justify-test {
+    width: 350px;
+    /*overflow: auto;  créer un scrollbar sir le texte dépasse du cadre au lieu de le faire sortir ou on peux forcer la césure avec word-wrap: break-word;*/
+    border: 1px solid black;
+    text-align: justify; /* Justifier le texte dans le cadre*/
+    padding: 8px; /* padding = marge intérieure*/
+    margin: auto; /* auto pour centrer // margin = marge extérieure */
+    margin-bottom: 20px;
+}
+
 
 /*
 ajouter une police personalisée 
