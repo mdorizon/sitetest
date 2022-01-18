@@ -25,6 +25,32 @@ Si vous voulez grossir le texte, vous pouvez inscrire une valeur supérieure à 
 Si vous voulez réduire le texte, inscrivez une valeur inférieure à 1, comme 0.8em
 */
 
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.element_1 {
+    width: fit-content;
+    background-color: orange;
+    color: black;
+    padding: 15px;
+}
+
+.element_2 {
+    width: fit-content;
+    background-color: blue;
+    color: black;
+    padding: 15px;
+}
+
+.element_3 {
+    width: fit-content;
+    background-color: green;
+    color: black;
+    padding: 15px;
+}
 
 .justify-test {
     width: 350px;
