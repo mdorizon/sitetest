@@ -1,0 +1,19 @@
+/* Feuille de style */
+
+
+#topsection {
+  display:flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+p {
+  width: 80%;
+  text-align: justify;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
